@@ -111,6 +111,13 @@ header nav ul {
   width: 160px;
   height: 160px;
   border-radius: 16px;
+  cursor: pointer;
+  transition: all 0.25s linear;
+}
+
+.cats img:hover {
+  width: 300px;
+  height: 300px;
 }
 
 .random-text {
@@ -118,11 +125,13 @@ header nav ul {
   color: #020122;
   font-weight: 900;
   margin-bottom: 60px;
+  line-height: 44px;
+  border-bottom: 4px solid #020122;
 }
 
 .cat-desc {
   font-size: 18px;
-  color: rgb(107, 107, 107);
+  color: #12113f;
 }
 
 .quote-container {
